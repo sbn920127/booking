@@ -8,7 +8,5 @@ import '@fortawesome/fontawesome-free/js/all.js'
 Vue.config.productionTip = false;
 new Vue({
   router,
-  render: h => {
-    return h(App)
-  }
+  render: h =>  h(App)
 }).$mount('#app');
