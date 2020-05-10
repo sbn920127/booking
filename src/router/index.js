@@ -7,7 +7,11 @@ Vue.use(VueRouter);
   {
     path: '/',
     name: 'Home',
-    component: () => import('../views/Home.vue')
+    components: {
+      default: () => import ('../views/Home.vue'),
+      header: () => import ('../components/MainHeader.vue'),
+      footer: () => import ('../components/Footer.vue')
+    }
   },
   {
     path: '/about',
