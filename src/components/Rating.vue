@@ -1,6 +1,7 @@
 <template>
   <div class="rating">
-    <i class="fa fa-star fa-fw mr-1 " aria-hidden="true"></i>{{ num }}
+    <i class="fas fa-star mr-1"></i>
+    <span>{{ num }}</span>
   </div>
 </template>
 
@@ -12,9 +13,15 @@ export default {
 </script>
 
 <style lang="scss">
+  @import "../assets/scss/base";
+
   .rating {
+    color: $yellow;
     display: flex;
     align-items: center;
     justify-content: center;
+    span {
+      color: $gray-700;
+    }
   }
 </style>

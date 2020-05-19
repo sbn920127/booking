@@ -1,13 +1,13 @@
 <template>
   <div class="Avatar">
-    <div class="img" :style="avatar"></div>
+    <div class="img" :style="imgStyle" :title="imgTitle"></div>
   </div>
 </template>
 
 <script>
 export default {
   name: 'Avatar',
-  props: ['avatar']
+  props: ['imgStyle', 'imgTitle']
 }
 </script>
 

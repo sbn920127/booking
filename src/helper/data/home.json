@@ -1,0 +1,483 @@
+{
+  "list": [
+    {
+      "brand_id": 43,
+      "brand_name": "50嵐",
+      "brand_photo": "https://s3-ap-northeast-1.amazonaws.com/nidin-production/brand/photos/43_c489ffd961211574.png",
+      "id": 1587,
+      "name": "捷運善導寺店",
+      "name_short": "捷運善導寺店",
+      "image": "https://s3-ap-northeast-1.amazonaws.com/nidin-production/store/icons/b_43_icon_20200413_112628_af13c.png",
+      "photo": null,
+      "description": null,
+      "longitude": "121.52385740000000000000",
+      "latitude": "25.04488600000000000000",
+      "address": "台北市中正區忠孝東路一段11號",
+      "address_remark": "",
+      "tel": "02-2351-8482",
+      "order_status": 10,
+      "rating_average_star": 4,
+      "rating_order_count": 2,
+      "has_shipping_fee": 0,
+      "start_time": "10:00:00",
+      "end_time": "22:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "distance": 286
+    },
+    {
+      "brand_id": 93,
+      "brand_name": "COMEBUY",
+      "brand_photo": "https://s3-ap-northeast-1.amazonaws.com/nidin-production/brand/photos/93_bed317b25c147515.jpg",
+      "id": 2267,
+      "name": "台北善導寺店",
+      "name_short": "台北善導寺店",
+      "image": "https://s3-ap-northeast-1.amazonaws.com/nidin-production/store/icons/b_93_icon_20200430_110924_3d43d.png",
+      "photo": null,
+      "description": null,
+      "longitude": "121.52379580000000000000",
+      "latitude": "25.04490200000000000000",
+      "address": "台北市中正區忠孝東路一段11之2號",
+      "address_remark": "",
+      "tel": "02-2341-9864",
+      "order_status": 10,
+      "rating_average_star": 3.5,
+      "rating_order_count": 2,
+      "has_shipping_fee": 0,
+      "start_time": "10:00:00",
+      "end_time": "22:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 3000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "distance": 291
+    },
+    {
+      "brand_id": 71,
+      "brand_name": "吉野家",
+      "brand_photo": "https://s3-ap-northeast-1.amazonaws.com/nidin-production/brand/photos/71_285b0e16260c6565.jpg",
+      "id": 2077,
+      "name": "忠孝東路店",
+      "name_short": "忠孝東路店",
+      "image": "https://s3-ap-northeast-1.amazonaws.com/nidin-production/store/icons/b_71_icon_20200422_150645_0f321.jpg",
+      "photo": null,
+      "description": null,
+      "longitude": "121.52637540000000000000",
+      "latitude": "25.04384530000000000000",
+      "address": "台北市中正區忠孝東路一段174號",
+      "address_remark": "",
+      "tel": "02-23912566",
+      "order_status": 10,
+      "rating_average_star": 5,
+      "rating_order_count": 1,
+      "has_shipping_fee": 1,
+      "start_time": "10:30:00",
+      "end_time": "20:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": "最低滿0外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 0,
+          "order_min_distance_m": 0
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 11,
+          "name": "中式料理",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/11_5c958d3c84a7db59.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/11_8269accd5d8a5c20.jpg"
+        }
+      ],
+      "distance": 344
+    },
+    {
+      "brand_id": 43,
+      "brand_name": "50嵐",
+      "brand_photo": "https://s3-ap-northeast-1.amazonaws.com/nidin-production/brand/photos/43_c489ffd961211574.png",
+      "id": 1555,
+      "name": "林森店",
+      "name_short": "林森店",
+      "image": "https://s3-ap-northeast-1.amazonaws.com/nidin-production/store/icons/b_43_icon_20200413_112628_af13c.png",
+      "photo": null,
+      "description": null,
+      "longitude": "121.52497030000000000000",
+      "latitude": "25.05004980000000000000",
+      "address": "台北市中山區林森北路93號1樓",
+      "address_remark": "",
+      "tel": "02-2523-6047",
+      "order_status": 10,
+      "rating_average_star": 5,
+      "rating_order_count": 6,
+      "has_shipping_fee": 0,
+      "start_time": "10:00:00",
+      "end_time": "22:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 3000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "distance": 572
+    },
+    {
+      "brand_id": 71,
+      "brand_name": "吉野家",
+      "brand_photo": "https://s3-ap-northeast-1.amazonaws.com/nidin-production/brand/photos/71_285b0e16260c6565.jpg",
+      "id": 2045,
+      "name": "天津店",
+      "name_short": "天津店",
+      "image": "https://s3-ap-northeast-1.amazonaws.com/nidin-production/store/icons/b_71_icon_20200422_150645_0f321.jpg",
+      "photo": null,
+      "description": null,
+      "longitude": "121.52265120000000000000",
+      "latitude": "25.04946810000000000000",
+      "address": "台北市中山區長安東路一段8-3號",
+      "address_remark": "",
+      "tel": "02-25633854",
+      "order_status": 10,
+      "rating_average_star": 5,
+      "rating_order_count": 1,
+      "has_shipping_fee": 1,
+      "start_time": "10:30:00",
+      "end_time": "20:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": "最低滿0外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 0,
+          "order_min_distance_m": 0
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 11,
+          "name": "中式料理",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/11_5c958d3c84a7db59.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/11_8269accd5d8a5c20.jpg"
+        }
+      ],
+      "distance": 616
+    },
+    {
+      "brand_id": 93,
+      "brand_name": "COMEBUY",
+      "brand_photo": "https://s3-ap-northeast-1.amazonaws.com/nidin-production/brand/photos/93_bed317b25c147515.jpg",
+      "id": 1263,
+      "name": "台北光華店",
+      "name_short": "台北光華店",
+      "image": "https://s3-ap-northeast-1.amazonaws.com/nidin-production/store/icons/b_93_icon_20200430_110924_3d43d.png",
+      "photo": null,
+      "description": null,
+      "longitude": "121.53193100000000000000",
+      "latitude": "25.04503600000000000000",
+      "address": "台北市中正區市民大道三段8號1樓(光華數位新天地B02櫃位)",
+      "address_remark": "",
+      "tel": "02-23418563",
+      "order_status": 10,
+      "rating_average_star": 5,
+      "rating_order_count": 1,
+      "has_shipping_fee": 0,
+      "start_time": "10:30:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": null,
+      "delivery_info": [],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "distance": 849
+    },
+    {
+      "brand_id": 43,
+      "brand_name": "50嵐",
+      "brand_photo": "https://s3-ap-northeast-1.amazonaws.com/nidin-production/brand/photos/43_c489ffd961211574.png",
+      "id": 1565,
+      "name": "長安店",
+      "name_short": "長安店",
+      "image": "https://s3-ap-northeast-1.amazonaws.com/nidin-production/store/icons/b_43_icon_20200413_112628_af13c.png",
+      "photo": null,
+      "description": null,
+      "longitude": "121.53214290000000000000",
+      "latitude": "25.04860730000000000000",
+      "address": "台北市中山區長安東路二段47-3號1樓",
+      "address_remark": "",
+      "tel": "02-2522-2050",
+      "order_status": 10,
+      "rating_average_star": 5,
+      "rating_order_count": 2,
+      "has_shipping_fee": 0,
+      "start_time": "10:00:00",
+      "end_time": "22:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "distance": 934
+    },
+    {
+      "brand_id": 93,
+      "brand_name": "COMEBUY",
+      "brand_photo": "https://s3-ap-northeast-1.amazonaws.com/nidin-production/brand/photos/93_bed317b25c147515.jpg",
+      "id": 1363,
+      "name": "台北南京西店",
+      "name_short": "台北南京西店",
+      "image": "https://s3-ap-northeast-1.amazonaws.com/nidin-production/store/icons/b_93_icon_20200430_110924_3d43d.png",
+      "photo": null,
+      "description": null,
+      "longitude": "121.52155800000000000000",
+      "latitude": "25.05152390000000000000",
+      "address": "台北市中山區中山北路一段140巷13號",
+      "address_remark": "",
+      "tel": "02-2511-8711",
+      "order_status": 10,
+      "rating_average_star": 5,
+      "rating_order_count": 1,
+      "has_shipping_fee": 0,
+      "start_time": "10:30:00",
+      "end_time": "22:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "22:30:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 3000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "distance": 940
+    },
+    {
+      "brand_id": 93,
+      "brand_name": "COMEBUY",
+      "brand_photo": "https://s3-ap-northeast-1.amazonaws.com/nidin-production/brand/photos/93_bed317b25c147515.jpg",
+      "id": 1235,
+      "name": "台北八德店",
+      "name_short": "台北八德店",
+      "image": "https://s3-ap-northeast-1.amazonaws.com/nidin-production/store/icons/b_93_icon_20200430_110924_3d43d.png",
+      "photo": null,
+      "description": null,
+      "longitude": "121.53220270000000000000",
+      "latitude": "25.04357510000000000000",
+      "address": "台北市中正區八德路一段82巷18-1號",
+      "address_remark": "",
+      "tel": "02-23416652",
+      "order_status": 10,
+      "rating_average_star": 5,
+      "rating_order_count": 1,
+      "has_shipping_fee": 0,
+      "start_time": "10:00:00",
+      "end_time": "22:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 3000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "distance": 944
+    }
+  ]
+}

@@ -5,17 +5,39 @@ Vue.use(VueRouter);
 
   const routes = [
   {
-    path: '/',
-    name: 'Home',
-    components: {
-      default: () => import ('../views/Home.vue'),
-      header: () => import ('../components/MainHeader.vue'),
-      footer: () => import ('../components/Footer.vue')
+    path: '*',
+    redirect: {
+      name: 'Home'
     }
   },
   {
+    path: '/',
+    name: 'Home',
+    component: () => import ('../views/Home.vue')
+  },
+  {
+    path: '/more',
+    name: 'more',
+    component: () => import('../views/OtherMenu.vue')
+  },
+  {
+    path: '/menu',
+    name: 'Menu',
+    component: () => import('../views/Menu.vue')
+  },
+  {
+    path: '/cart',
+    name: 'cart',
+    component: () => import('../views/Cart.vue')
+  },
+  {
+    path: '/order-list/',
+    name: 'orderList',
+    component: () => import('../views/OrderList.vue')
+  },
+  {
     path: '/about',
-    name: 'About',
+    name: 'about',
     component: () => import('../views/About.vue')
   }
 ];

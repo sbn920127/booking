@@ -2,13 +2,13 @@
   <header id="header">
     <div class="navbar navbar-expand-md">
       <div class="container">
-        <nav class="collapse navbar-collapse flex-grow-0">
+        <nav class="collapse navbar-collapse flex-grow-0" :style="menuWidth">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a href="#" class="nav-link">訂購</a>
+              <router-link to="/" class="nav-link">訂購</router-link>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">購物車</a>
+              <router-link to="/cart" class="nav-link">購物車</router-link>
             </li>
             <li class="nav-item">
               <a href="#" class="nav-link">訂單</a>
@@ -27,8 +27,8 @@
             </li>
           </ul>
         </nav>
-        <a href="#" class="navbar-brand mx-auto">BOOKING</a>
-        <div class="collapse navbar-collapse flex-grow-0">
+        <router-link to="/" class="navbar-brand mx-auto">BOOKING</router-link>
+        <div class="collapse navbar-collapse flex-grow-0 justify-content-end" :style="menuWidth">
           <ul class="navbar-nav">
             <li class="nav-item">
               <a href="#" class="nav-link">通知</a>
@@ -55,9 +55,32 @@
 
 <script>
   import Avatar from "./Avatar";
+
   export default {
     name: 'MainHeader',
-    components: {Avatar}
+    components: {Avatar},
+    data() {
+      return {
+        menuWidth: {
+          width: null
+        }
+      }
+    },
+    methods: {
+      setMenuSize() {
+        let menus = document.querySelectorAll('#header .collapse');
+        let widths = Array.from(menus).map(item => item.clientWidth);
+        let max = Math.max(...widths);
+        // let index = widths.indexOf(max);
+        this.menuWidth.width = max + 'px';
+
+
+        // menus[index].clientWidth = max + 'px';
+      }
+    },
+    mounted() {
+      this.setMenuSize();
+    }
   }
 </script>
 
@@ -79,5 +102,6 @@
        background-color: $gray-100;
      }
   }
+
 
 </style>

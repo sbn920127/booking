@@ -1,12 +1,17 @@
 <template>
-  <div class="name">
-
+  <div class="btn">
+    <slot></slot>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'name',
+  name: 'Button',
+  data() {
+    return {
+      text: 'test'
+    }
+  }
 }
 </script>
 
